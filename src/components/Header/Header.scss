@@ -1,0 +1,47 @@
+@use "@fremtind/jkl-core/jkl";
+
+header {
+    padding-left: jkl.$spacing-2xl;
+    padding-bottom: jkl.$spacing-2xl;
+    padding-top: jkl.$spacing-xl;
+    background-color: #ECE9E5;
+}
+.logoAndKilde{
+    width: 35%;
+    float: left;
+}
+.logo{
+    width: 90%;
+    font-size: 36px;
+}
+.tabsTest{
+    margin: 0 auto;
+    width: 65%;
+}
+.panel{
+    background-color: #F4F2EF;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dropdown {
+    position: relative;
+    max-width: 300px;
+    z-index: jkl.$z-index--dropdown;
+    padding: 10px;
+    &__content {
+        padding: 10px;
+      position: absolute;
+      top: jkl.$spacing-xl;
+      min-width: 100%;
+      background-color: jkl.$color-snohvit;
+      box-shadow: jkl.$shadow-navigation--hover;
+    }
+    display: block;
+  }
+  .fra{
+    width: auto;
+  }
+  .til{
+    width: auto;
+  }
